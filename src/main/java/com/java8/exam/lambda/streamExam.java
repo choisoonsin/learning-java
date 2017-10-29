@@ -13,9 +13,9 @@ public class streamExam {
 		names.stream().filter( x -> !x.contains("A")).forEach( x -> System.out.println(x) );
 		
 		List<Person> persons = Arrays.asList(
-                new Person("a", 10),
-                new Person("b", 20),
-                new Person("c", 30)
+	        new Person("a", 10),
+	        new Person("b", 20),
+	        new Person("c", 30)
         );
 		
 		List<Integer> numbers = Arrays.asList(1 , 2 , 3 , 4 , 5);
