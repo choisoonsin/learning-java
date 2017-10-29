@@ -1,5 +1,5 @@
 # learning java8
 
-## list of Project feature
+## A list of Project features
  - lambda expression
  - stream
