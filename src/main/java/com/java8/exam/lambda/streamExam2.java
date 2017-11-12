@@ -81,11 +81,14 @@ public class streamExam2 {
 			// TODO: handle exception
 			e.printStackTrace();
 		}
-			
+			 
 		System.out.println("-----------------------------------------------------------");	
 		
 		System.out.println("end");
-		
+		/*
+		 * sadfasdf
+		 * 
+		 * */
 	}
 	
 }
