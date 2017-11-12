@@ -11,7 +11,7 @@ public class flatMapExam {
 		
 		Stream<String[]> convData = Arrays.stream(data);
 		
-		convData.forEach( x-> System.out.println(x));
+		convData.filter( x -> x.equals("a")).forEach( x -> System.out.println(x));
 	}
 	
 }

@@ -20,8 +20,13 @@ public class streamExam {
 		
 		List<Integer> numbers = Arrays.asList(1 , 2 , 3 , 4 , 5);
 		
-		Optional<Integer> result = numbers.stream().reduce( (x,y) -> Math.max(x, y));
-
+		Optional<Integer> result1 = numbers.stream().reduce( (x,y) -> Math.min(x, y));
+		
+		System.out.println(result1.toString());
+		
+		Optional<Integer> result2 = numbers.stream().reduce( (x,y) -> Math.max(x, y));
+		
+		System.out.println(result2.toString());
 		
 	}
 	
