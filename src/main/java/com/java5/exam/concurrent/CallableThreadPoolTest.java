@@ -12,7 +12,7 @@ public class CallableThreadPoolTest {
       ExecutorService pool = Executors.newCachedThreadPool();
       CallableWorkerThread workers[] = new CallableWorkerThread[numWorkers];
       Future[] futures = new Future[numWorkers];
-
+ 
       for (int i = 0; i < numWorkers; ++i) {
          workers[i] = new CallableWorkerThread(i + 1);
          futures[i] = pool.submit(workers[i]);		// Callable 객체는 ExcutorService의 submit을 호출하여 실행한다. ( Runnable 객체 실행의 경우 excute )
