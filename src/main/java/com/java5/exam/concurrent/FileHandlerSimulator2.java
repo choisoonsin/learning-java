@@ -8,8 +8,8 @@ public class FileHandlerSimulator2 {
 	public static void main(String args[]) throws Exception {
 		 
 		ExecutorService service = Executors.newFixedThreadPool(2);
-		
-		// ¾²·¹µå pool °´Ã¼ °£ object °øÀ¯ ½Ã
+		 
+		// ì“°ë ˆë“œ pool ê°ì²´ ê°„ object ê³µìœ  ì‹œ
 		FileHandler workers = new FileHandler("C:\\files\\" , "C:\\targetFiles");
 	    for(int i = 0 ; i < 2 ; i++) {
 	    	service.execute(workers);
