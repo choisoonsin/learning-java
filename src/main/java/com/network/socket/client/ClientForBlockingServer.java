@@ -31,7 +31,7 @@ class Client{
 				for(int i = br.read(); i != -1 ; i = br.read()){
 					sb.append((char)i);
 				}
-			};
+			}; 
 			sb.append("]");
 			System.out.println(sb.toString());
 			
