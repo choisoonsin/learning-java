@@ -16,7 +16,6 @@ JAVA NETWORK API Programming
 	
 	> 핵심코드
 	~~~~
-	<pre>
 		public class BlockingThreadServer {
 	
 		public static final int PORT = 8888;
@@ -38,5 +37,4 @@ JAVA NETWORK API Programming
 		}
 	
 	} 
-	</pre>
 	~~~~
