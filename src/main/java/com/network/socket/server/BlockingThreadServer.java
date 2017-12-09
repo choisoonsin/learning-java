@@ -49,7 +49,6 @@ class BlokingServer extends Thread{
 			
 			// Create write object
 			Writer out = new OutputStreamWriter(socket.getOutputStream());
-			LocalDateTime now = LocalDateTime.now();
 			// Client 다중 접속 테스트하기 위해 잠깐 쉰다.
 			for (int i = 0; i < 10; i++) {
 				System.out.print(".");
@@ -57,7 +56,7 @@ class BlokingServer extends Thread{
 			}
 			System.out.println();
 			
-			out.write(now.toString());
+			out.write(LocalDateTime.now().toString());
 			out.flush();
 				
 		} catch (IOException | InterruptedException e) {
