@@ -29,6 +29,16 @@ class Node {
 
 class Tree {
 
+    private Node root;
+
+    public Tree(String sourceForTree) {
+        root = makeNode(sourceForTree);
+    }
+
+    private Node makeNode(String sourceForTree) {
+        
+        return null;
+    }
 }
 
 public class TreeMain {
