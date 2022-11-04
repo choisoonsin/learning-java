@@ -26,6 +26,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
+    mainClass = 'java8.App'
 }
 
 tasks.named('test') {
